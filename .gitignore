@@ -1,0 +1,59 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+.figure-venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+OPENAI_API_KEY
+DEEPSEEK_API_KEY
+
+# Copyright-restricted article files and local input data
+data/
+articles/
+supplementary/
+*.pdf
+*.doc
+*.docx
+
+# Generated extraction products
+output/
+outputs/
+parsed/
+result*/
+logs/
+*.log
+*.xlsx
+*.xls
+*.tiff
+*.tif
+*.png
+*.jpg
+*.jpeg
+*.jp2
+
+# Model/cache artifacts
+.cache/
+storage/
+new_storage/
+*.ckpt
+*.npz
+*.tar.gz
+

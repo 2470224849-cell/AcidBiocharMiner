@@ -1,0 +1,31 @@
+# LLM (AIHubMix OpenAI-compatible)
+api_base: https://aihubmix.com/v1
+api_key_env: AIHUBMIX_API_KEY
+model_name: gpt-5.4
+simple_model_name: gpt-5.4-mini
+
+# Fine-tuned llm models (optional)
+fine_tuning_models:
+  ft_text_categorize: Null
+  ft_text_property_type: Null
+  ft_text_property_extract: Null
+  ft_text_synthesis_type: Null
+  ft_text_synthesis_extract: Null
+  ft_table_convert: Null
+  ft_table_categorize: Null
+  ft_table_crystal_type: Null
+  ft_table_property_type: Null
+
+# LLM Options
+temperature: 0.0
+verbose: False
+
+# config - agent
+reconstruct: True
+process_original_elements_after_reconstruct: True
+process_else_with_topic_signals: True
+max_else_boost_elements: 30
+collect_from_both_elements: True
+input_max_toknes_synthesis: Null
+input_max_token_synthesis_type: 3500
+input_max_tokens_property: 3500

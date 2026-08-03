@@ -1,0 +1,4 @@
+Model,Precision,Recall,F1 Score
+DeepSeek-V4,0.94,0.91,0.92
+GPT-4o,0.905,0.86,0.88
+GPT-5.4-mini,0.775,0.885,0.825

@@ -1,0 +1,19 @@
+# Versions recorded from the environment used to freeze the pipeline.
+ase==3.26.0
+beautifulsoup4==4.14.3
+docling==2.69.1
+Jinja2==3.1.6
+jsonlines==4.0.0
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-core==0.3.83
+lxml==6.0.2
+omegaconf==2.3.0
+openai==2.24.0
+openpyxl==3.1.5
+pandas==2.3.3
+pypdf==6.7.5
+regex==2026.1.15
+requests==2.32.5
+tiktoken==0.12.0
+
