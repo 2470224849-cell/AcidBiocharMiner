@@ -39,6 +39,7 @@ flowchart LR
 - `run_fixed_extract_batch.sh` and `run_fixed_postprocess*.sh`: frozen production entry points.
 - `docs/PIPELINE.md`: stage-by-stage inputs, outputs, and decision rules.
 - `evaluation/`: model-comparison status and the materials still required for complete reproduction.
+- `analysis/figure_scripts/`: statistical and plotting scripts for the structural-response and adsorption-performance figures, with method notes in `analysis/figure_scripts/methods/`.
 
 ## Installation
 
